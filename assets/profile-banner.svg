@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">David De Santiago — software, systems, and infrastructure</title>
+  <desc id="desc">A dark technical banner with a terminal prompt and connected system nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0c2340"/>
+      <stop offset="1" stop-color="#12365a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#7dd3fc" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <style>
+    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes pulse { 0%,100% { opacity:.35 } 50% { opacity:1 } }
+    @keyframes blink { 0%,45% { opacity:1 } 46%,100% { opacity:0 } }
+  </style>
+  <rect width="1000" height="280" rx="22" fill="url(#bg)"/>
+  <rect width="1000" height="280" rx="22" fill="url(#grid)"/>
+  <path d="M690 54H814L873 113V216H743L690 163Z" fill="none" stroke="#38bdf8" stroke-opacity=".18"/>
+  <path d="M708 76L776 140L840 90M776 140L852 194M776 140L724 204" fill="none" stroke="#67e8f9" stroke-opacity=".35"/>
+  <g fill="#34d399" filter="url(#glow)">
+    <circle class="pulse" cx="708" cy="76" r="4"/>
+    <circle class="pulse" cx="840" cy="90" r="4" style="animation-delay:.5s"/>
+    <circle class="pulse" cx="776" cy="140" r="5" style="animation-delay:1s"/>
+    <circle class="pulse" cx="852" cy="194" r="4" style="animation-delay:1.5s"/>
+    <circle class="pulse" cx="724" cy="204" r="4" style="animation-delay:2s"/>
+  </g>
+  <text x="64" y="78" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17">$ whoami</text>
+  <text x="64" y="137" fill="#f8fafc" font-family="Inter, Segoe UI, sans-serif" font-size="42" font-weight="700">David De Santiago</text>
+  <rect x="64" y="158" width="488" height="3" rx="2" fill="url(#accent)"/>
+  <text x="64" y="201" fill="#cbd5e1" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18">software • systems • infrastructure</text>
+  <text x="64" y="238" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15">build → test → document → improve</text>
+  <rect class="cursor" x="409" y="223" width="9" height="19" fill="#34d399"/>
+</svg>
