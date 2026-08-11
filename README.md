@@ -14,6 +14,21 @@
 
 I turn practical problems into usable systems, then test the edge cases, document the boundaries, and make the result easier for the next person to operate. If something is a prototype, simulator, or planned integration, I say so.
 
+## 🕷️ New release · Webline for VS Code
+
+<div align="center">
+  <a href="https://github.com/ddesantiag0/webline-vscode">
+    <img src="https://raw.githubusercontent.com/ddesantiag0/webline-vscode/main/assets/webline-concept-v2.png" width="58%" alt="Webline comic-web-inspired themes and icons for VS Code" />
+  </a>
+  <br />
+  <strong>Three coordinated editor suits. Sixteen original spider-forward icons. One-click switching.</strong>
+  <br />
+  <sub>Built with semantic highlighting, core contrast validation, automated packaging checks, and an installable public release.</sub>
+  <br /><br />
+  <a href="https://github.com/ddesantiag0/webline-vscode"><img src="https://img.shields.io/badge/VIEW_SOURCE-070B14?style=for-the-badge&logo=github&logoColor=white" alt="View Webline source" /></a>
+  <a href="https://github.com/ddesantiag0/webline-vscode/releases/tag/v0.2.1"><img src="https://img.shields.io/badge/DOWNLOAD_V0.2.1-E62429?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Download Webline 0.2.1" /></a>
+</div>
+
 ## 🕸️ Selected missions
 
 <div align="center">
