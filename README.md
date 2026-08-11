@@ -48,7 +48,7 @@ Systems         Linux · Git · REST APIs · Arduino · SystemVerilog · SLURM
 Working style   Testing · Debugging · Documentation · Security-minded review
 ```
 
-### Engineering mode
+### Friendly neighborhood engineering
 
 ```js
 while (problem.isReal()) {
