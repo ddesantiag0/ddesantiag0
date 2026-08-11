@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="285" viewBox="0 0 1200 285" role="img" aria-labelledby="title">
+  <title id="title">Engineering power set: build, harden, and support</title>
+  <defs><pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.6" fill="#fff" opacity=".14"/></pattern><filter id="s"><feDropShadow dx="7" dy="7" stdDeviation="0" flood-color="#02040a" flood-opacity=".9"/></filter></defs>
+  <rect width="1200" height="285" rx="22" fill="#060b18"/>
+  <text x="42" y="49" fill="#fff" font-family="Impact,Arial Black,sans-serif" font-size="30" letter-spacing="2">ENGINEERING POWER SET</text>
+  <path d="M42 62H1158" stroke="#ff3048" stroke-width="4"/>
+  <g filter="url(#s)">
+    <path d="M42 88H384L365 244H55Z" fill="#d4112c" stroke="#fff" stroke-width="3"/><path d="M42 88H384L365 244H55Z" fill="url(#dots)"/>
+    <path d="M407 88H781L763 244H389Z" fill="#0d47a1" stroke="#fff" stroke-width="3"/><path d="M407 88H781L763 244H389Z" fill="url(#dots)"/>
+    <path d="M804 88H1158L1145 244H786Z" fill="#171f33" stroke="#fff" stroke-width="3"/><path d="M804 88H1158L1145 244H786Z" fill="url(#dots)"/>
+  </g>
+  <g fill="#fff" font-family="Impact,Arial Black,sans-serif" font-size="29"><text x="78" y="132">01 // BUILD</text><text x="432" y="132">02 // HARDEN</text><text x="830" y="132">03 // SUPPORT</text></g>
+  <g fill="#fff" font-family="ui-monospace,Consolas,monospace" font-size="16">
+    <text x="78" y="169"><tspan x="78">FULL-STACK INTERFACES</tspan><tspan x="78" dy="25">REST APIs • TELEMETRY</tspan><tspan x="78" dy="25">DATA-BACKED WORKFLOWS</tspan></text>
+    <text x="432" y="169"><tspan x="432">AUTH • VALIDATION</tspan><tspan x="432" dy="25">TESTS • DEPENDENCY AUDITS</tspan><tspan x="432" dy="25">SECURITY BOUNDARIES</tspan></text>
+    <text x="830" y="169"><tspan x="830">LINUX • SSH • SLURM</tspan><tspan x="830" dy="25">HPC ENVIRONMENTS</tspan><tspan x="830" dy="25">DOCS • TROUBLESHOOTING</tspan></text>
+  </g>
+</svg>
