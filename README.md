@@ -1,64 +1,61 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="David De Santiago — software, systems, and infrastructure" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="David De Santiago — engineering with great responsibility" />
 
-  <h3>I turn practical problems into tested, documented systems.</h3>
+  <br />
 
-  <p>
-    UC San Diego student · Software Engineering · AI-Enabled Systems · Infrastructure · QA / IT
-  </p>
+  <a href="https://www.linkedin.com/in/david-de-santiago-a485b4240/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0D47A1?style=for-the-badge&labelColor=05070D" alt="LinkedIn" /></a>
+  <a href="mailto:ddesantiago@ucsd.edu"><img src="https://img.shields.io/badge/EMAIL-REACH_OUT-D4112C?style=for-the-badge&labelColor=05070D" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_ROLES-FFFFFF?style=for-the-badge&labelColor=05070D" alt="Open to roles" />
 
-  <p>
-    <a href="https://www.linkedin.com/in/david-de-santiago-a485b4240/">LinkedIn</a>
-    &nbsp;•&nbsp;
-    <a href="mailto:ddesantiago@ucsd.edu">Email</a>
-    &nbsp;•&nbsp;
-    Open to internships and early-career technical roles
-  </p>
+  <h3>UC San Diego student building reliable software across product, infrastructure, and hardware boundaries.</h3>
 </div>
 
----
+<img src="./assets/power-set.svg" width="100%" alt="Engineering power set: build, harden, and support" />
 
-### What I bring
+I turn practical problems into usable systems, then test the edge cases, document the boundaries, and make the result easier for the next person to operate. If something is a prototype, simulator, or planned integration, I say so.
 
-| Build | Harden | Support |
-| :--- | :--- | :--- |
-| Full-stack interfaces, REST APIs, embedded telemetry, and data-backed workflows | Input validation, authentication boundaries, dependency audits, and automated tests | Linux, SSH, SLURM, HPC environments, documentation, and real-time troubleshooting |
+## 🕸️ Selected missions
 
-I enjoy work that crosses boundaries: software and hardware, product and infrastructure, implementation and user support. My projects are documented with honest limitations—if something is a prototype, simulator, or planned integration, I say so.
+<div align="center">
+  <a href="https://github.com/ddesantiag0/comunidad-segura"><img src="./assets/project-comunidad.svg" width="49%" alt="Comunidad Segura" /></a>
+  <a href="https://github.com/ddesantiag0/secure-job-board-api"><img src="./assets/project-jobboard.svg" width="49%" alt="Secure Job Board API" /></a>
+  <br />
+  <a href="https://github.com/ddesantiag0/WildfireMonitoringDrone"><img src="./assets/project-wildfire.svg" width="49%" alt="Wildfire Monitoring Drone" /></a>
+  <a href="https://github.com/ddesantiag0/splash-auto-detail"><img src="./assets/project-splash.svg" width="49%" alt="Splash Auto Detail" /></a>
+</div>
 
-### Selected work
+<details>
+  <summary><strong>Open the mission reports</strong></summary>
+  <br />
 
-| Project | What it demonstrates | Evidence |
-| :--- | :--- | :--- |
-| **[Comunidad Segura](https://github.com/ddesantiag0/comunidad-segura)** | Bilingual React/TypeScript safety prototype with Firebase reports, Leaflet maps, PWA support, notifications, and locally encrypted contact storage | Removed exposed messaging credentials, escaped map content, added code splitting, and passed **7 tests**, lint, build, and production audit |
-| **[Secure Job Board API](https://github.com/ddesantiag0/secure-job-board-api)** | Express/MongoDB API with JWT authorization, bcrypt, role-aware access, Helmet, CORS, and throttling | Blocked public administrator self-assignment, normalized auth input, separated startup concerns, and passed **6 request-level tests** |
-| **[Wildfire Monitoring Drone](https://github.com/ddesantiag0/WildfireMonitoringDrone)** | Arduino-to-Node telemetry pipeline with an ESP8266 interface, ground-station API, NDJSON logs, dashboard, and simulator | Produces valid HTTP/JSON telemetry; automated ground-station tests and live simulator path pass; hardware validation remains clearly documented |
-| **[Splash Auto Detail](https://github.com/ddesantiag0/splash-auto-detail)** | Responsive small-business website with semantic HTML, modern CSS, structured data, sitemap, and local-search documentation | Removed broken assets and unsupported claims; integrity tests verify assets, links, URLs, and structured data |
+  - **Comunidad Segura:** Removed browser-exposed messaging credentials, escaped report content used in map popups, added route-level code splitting, and passed 7 automated tests, lint, build, and a production audit.
+  - **Secure Job Board API:** Prevented public administrator self-assignment, normalized authentication input, separated app construction from database startup, and passed 6 request-level tests.
+  - **Wildfire Monitoring Drone:** Built valid HTTP/JSON telemetry, a ground-station API, NDJSON logging, Leaflet dashboard, and hardware-free simulator. Physical hardware validation remains documented.
+  - **Splash Auto Detail:** Built a responsive business site with structured data and local-search documentation; removed broken assets and unsupported claims; added integrity tests.
+</details>
 
-### Field experience
+## ⚡ Field experience
 
-At the **San Diego Supercomputer Center**, I supported PhD researchers and technical professionals during hands-on sessions on the **Expanse supercomputer**. I assisted with Linux, SSH, SLURM, software environments, and troubleshooting computational workflows in real time.
+> ### San Diego Supercomputer Center · Expanse
+> Supported PhD researchers and technical professionals during hands-on HPC sessions. Assisted with **Linux, SSH, SLURM, software environments, and real-time troubleshooting** of computational workflows.
 
-### Technical toolkit
+<img src="./assets/tech-stack.svg" width="100%" alt="Technical toolkit" />
+
+## 🕷️ Operating principle
 
 ```text
-Languages       Python · Java · JavaScript · TypeScript · C++ · C · SQL
-Web & APIs      React · Node.js · Express · Firebase · MongoDB · HTML · CSS
-Systems         Linux · Git · REST APIs · Arduino · SystemVerilog · SLURM
-Working style   Testing · Debugging · Documentation · Security-minded review
+SENSE the real problem
+BUILD the smallest useful system
+TEST where it can fail
+DOCUMENT what is true
+IMPROVE what users feel
 ```
 
-### Friendly neighborhood engineering
-
-```js
-while (problem.isReal()) {
-  understand();
-  build();
-  test();
-  document();
-  improve();
-}
-```
+<div align="center">
+  <strong>Software engineering · AI-enabled systems · Infrastructure · QA / IT</strong>
+  <br />
+  <sub>With great code comes great responsibility.</sub>
+</div>
 
 <details>
   <summary><strong>Coursework and project history</strong></summary>
